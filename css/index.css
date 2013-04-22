@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color:#E4E4E4;
+    background-color:#2e2e2e;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -43,6 +43,7 @@ body {
     padding:0px;
     text-transform:uppercase;
     width:100%;
+    color:#FF0000
 }
 
 /* Portrait layout (default) */
@@ -95,6 +96,54 @@ h1 {
 .hide {
     display:none;
 }
+
+#container {
+	margin: 100px auto;
+	width: auto;
+	vertical-align:middle;
+
+}
+
+#countdown_dashboard {
+	height: 50px;
+	width:112px;
+	vertical-align:middle;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-56px;
+	margin-top:-25px;
+}
+
+.dash {
+	width: 28px;
+	height: 40px;
+	background-color:#2e2e2e;
+	float: left;
+	position: relative;
+	
+		
+}
+
+.dash .digit {
+	font: bold 12pt Verdana;
+	font-weight: bold;
+	float: left;
+	width: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.dash .divider {
+	font: bold 12pt Verdana;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	position: relative;
+
+}
+
+
 
 @keyframes fade {
     from { opacity: 1.0; }
